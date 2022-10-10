@@ -1,5 +1,26 @@
 # Docker Registry
 
+## Supported versions
+
+- 2.8.1
+- 2.8.0
+
+## Pull
+
+### Docker Hub
+
+```
+docker pull dwreg/registry
+docker pull dwreg/registry:<version>
+```
+
+### Darkwolf Registry
+
+```
+docker pull registry.darkwolf.cloud/registry
+docker pull registry.darkwolf.cloud/registry:<version>
+```
+
 ## Build
 
 ### Ubuntu
