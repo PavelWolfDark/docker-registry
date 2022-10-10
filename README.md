@@ -9,16 +9,34 @@
 
 ### Docker Hub
 
+#### Ubuntu
+
 ```
 docker pull dwreg/registry
 docker pull dwreg/registry:<version>
 ```
 
+#### Alpine
+
+```
+docker pull dwreg/registry:alpine
+docker pull dwreg/registry:<version>-alpine
+```
+
 ### Darkwolf Registry
+
+#### Ubuntu
 
 ```
 docker pull registry.darkwolf.cloud/registry
 docker pull registry.darkwolf.cloud/registry:<version>
+```
+
+#### Alpine
+
+```
+docker pull registry.darkwolf.cloud/registry:alpine
+docker pull registry.darkwolf.cloud/registry:<version>-alpine
 ```
 
 ## Build
